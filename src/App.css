@@ -1,0 +1,17 @@
+body {
+  background: #0f172a;
+}
+
+.password {
+  animation: bounce 2s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  60% {
+    transform: translatex(50%);
+  }
+}
